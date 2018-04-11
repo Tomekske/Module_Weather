@@ -19,7 +19,7 @@ import json
 ##
 ## @brief      Class to fetch weather data from the openweathermap API
 ##
-class Weather():
+class Weather(object):
     ##
     ## @brief      Constructor of the Weather class
     ## @param      location The location or country which you want to fetch weather data from    
@@ -71,8 +71,7 @@ class Weather():
     ## @return     JSON response or error message
     ##
     def querry(self):
-        print("raw:",self.API)
-        
+            
         #check if API is not a error
         if not self.API == "API_KEY_ERROR":
             try:
