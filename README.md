@@ -17,13 +17,13 @@
 	https://home.openweathermap.org/api_keys
 
 # Module usage
-### Download module 
+### 1. Download module 
 	git clone https://github.com/Tomekske/Module_Weather
-### Extract project
-### Move Weather.py script to your project location
-### Create config file in the root location
+### 2. Extract project
+### 3. Move Weather.py script to your project location
+### 4. Create config file in the root location
 	config.ini
-### Add following lines to the config file
+### 5. Add following lines to the config file
 	[Openweathermap]
 	API = INSERT_API_KEY_HERE
 
