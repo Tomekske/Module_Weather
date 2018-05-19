@@ -7,9 +7,11 @@
 	This module helps you to interface with the openweathermap API
 ### Version
 	1.0.1
-# Download modules
-	pip install requests
-	pip install configparser
+
+
+# Setup
+	python setup.py install
+
 
 # Retrieve API
 ### 1. Create an account on openweathermap website
@@ -22,6 +24,7 @@
 ### 4. Add following lines to the config file
 	[Openweathermap]
 	API = INSERT_API_KEY_HERE
+
 
 # Example
 ### Import module
