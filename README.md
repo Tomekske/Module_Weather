@@ -12,19 +12,14 @@
 	pip install configparser
 
 # Retrieve API
-### Create an account on openweathermap website
+### 1. Create an account on openweathermap website
 	https://home.openweathermap.org/users/sign_up
-### Get your API key
+### 2. Get your API key
 	https://home.openweathermap.org/api_keys
 
-# Module usage
-### 1. Download module 
-	git clone https://github.com/Tomekske/Module_Weather
-### 2. Extract project
-### 3. Move Weather.py script to your project location
-### 4. Create config file in the root location
-	config.ini
-### 5. Add following lines to the config file
+### 3. Create config file in the folder listed in the root folder
+	Config/config.ini
+### 4. Add following lines to the config file
 	[Openweathermap]
 	API = INSERT_API_KEY_HERE
 
