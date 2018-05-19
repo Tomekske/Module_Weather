@@ -5,7 +5,8 @@
 	Joostens Tomek
 ### Description
 	This module helps you to interface with the openweathermap API
-
+### Version
+	1.0.1
 # Download modules
 	pip install requests
 	pip install configparser
@@ -29,9 +30,9 @@
 
 # Example
 ### Import module
-	from Weather import Weather
+	import Weather
 ### Create object, first parameter is the place you want to fetch the weather from
-	w = Weather('Tokyo')
+	w = Weather.Weather('Tokyo')
 ### Optionally add as the second parameter the absolute path to the config file
 	w = Weather('Tokyo','C://path/to/config.ini')
 ### Print temperature in metric units

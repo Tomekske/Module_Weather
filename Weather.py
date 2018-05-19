@@ -12,8 +12,8 @@
 
 import requests #http request libray
 import json
-import ResponseHandler
-import ConfigHandler
+import Modules.ResponseHandler.ResponseHandler as ResponseHandler
+import Modules.ConfigHandler.ConfigHandler as ConfigHandler
 
 
 ##
@@ -25,7 +25,7 @@ class Weather(ConfigHandler.Config,ResponseHandler.Response):
     ## @param      location The location or country which you want to fetch weather data from    
     ## @param      file_location The config file location, default value is 'config.ini'    
     ##
-    def __init__(self, location, file_location ="config.ini"):
+    def __init__(self, location, file_location ="Config/config.ini"):
         ConfigHandler.Config.__init__(self, file_location)
         self.api = self.readData('Openweathermap','API')
         self.location = location

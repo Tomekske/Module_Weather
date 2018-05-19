@@ -1,4 +1,7 @@
 *.pyc
-
 *.gitattributes
 *.ini
+virtual
+Weather.egg-info
+dist
+build
